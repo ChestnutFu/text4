@@ -1,0 +1,35 @@
+body,div{
+	margin: 0;
+	padding: 0;
+}
+#box{
+	width: 400px;
+	height: 200px;
+	background-color: #ccc;
+	position: absolute;
+	left: 50%;
+	top:50%;
+	margin: -100px 0 0 -200px;
+}
+#left{
+	width: 50px;
+	height: 50px;
+	-moz-border-radius:0 0 50px 0;
+	-webkit-border-radius:0 0 50px 0;
+	border-radius:0 0 50px 0;
+	background-color: #fc0;
+	position: absolute;
+	left:0px;
+	top:0px;
+}
+#right{
+	width: 50px;
+	height: 50px;
+	background-color: #fc0;
+	-moz-border-radius:50px 0 0 0;
+	-webkit-border-radius:50px 0 0 0;
+	border-radius: 50px 0 0 0;
+	position: absolute;
+	right:0px;
+	bottom: 0px;
+}
